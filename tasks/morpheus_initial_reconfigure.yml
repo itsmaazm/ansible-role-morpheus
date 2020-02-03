@@ -18,3 +18,4 @@
   retries: 30
   delay: 30
   loop: "{{ groups[morpheus_group] }}"
+  run_once: true
